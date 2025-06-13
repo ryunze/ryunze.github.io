@@ -42,7 +42,7 @@
     <!-- Content -->
     <div class="container py-4">
         <div class="row">
-            <a href="https://ryunze.github.io/tools/vcard-maker">
+            <a href="https://ryunze.github.io/tools/vcard-maker" class="text-decoration-none">
                 <div class="col-md-4">
                     <div class="card shadow">
                         <div class="card-body">

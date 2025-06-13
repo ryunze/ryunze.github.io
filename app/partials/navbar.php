@@ -1,6 +1,7 @@
 <style>
     body {
         font-family: "Poppins", sans-serif;
+        background-color: #fbfcfd;
     }
 
     .bg-body-tertiary {
