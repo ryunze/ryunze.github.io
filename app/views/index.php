@@ -49,12 +49,8 @@
 <body>
 
     <!-- # Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="https://ryunze.github.io/">Ryunze</a>
-    </div>
-    </div>
-</nav>
+    <?php include_once(__DIR__ . '/../partials/navbar.php') ?>
+
     <!-- Content -->
     <div class="container py-4">
         <div class="row">
