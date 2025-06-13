@@ -7,7 +7,7 @@ function buildPage($file)
 
     $dir = __DIR__ . '/app/views/' . $file;
 
-    require_once($dir);
+    include($dir);
 
     $result = ob_get_contents();
 
@@ -41,6 +41,9 @@ function buildPage($file)
     }
 
     ob_end_clean();
+    
+    // echo $result;
+
 }
 
 // Scan all dir

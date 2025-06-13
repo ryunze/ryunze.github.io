@@ -37,7 +37,7 @@
 <body>
 
     <!-- # Navbar -->
-    <?php include_once(__DIR__ . '/../partials/navbar.php') ?>
+    <?php include(__DIR__ . '/../partials/navbar.php') ?>
 
     <!-- Content -->
     <div class="container py-4">
